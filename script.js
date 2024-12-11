@@ -196,7 +196,7 @@ const init = () => {
     //ropes.push(new Rope(W*0.25, H*0.25,5,"cyan"));
     ropes.push(new Rope(W*0.5, H*0.25,2,"cyan",3.341));
     //window.alert("Credit to Lolo for event handlers: touch or strife");
-    ctx.fillStyle = "rgba(24,0,151,0.99)";
+    ctx.fillStyle = "rgba(0,0,0.99)";
     ctx.fillRect(0, 0, W, H);
     eventsListener();
     requestAnimationFrame(animate);
